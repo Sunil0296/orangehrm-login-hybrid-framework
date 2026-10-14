@@ -41,10 +41,3 @@ This framework is built upon a **Hybrid Architecture** combining Page Object Mod
 
 ---
 
-## 🎯 How to Explain This in an Interview
-
-When asked, *"Explain your framework architecture,"* you can confidently structure your answer around this repository using this blueprint:
-
-1. **Design Pattern:** *"I implemented a Page Object Model where page elements are entirely separated from test verification logic. If the UI changes, I only update the Page Class, not the tests."*
-2. **Base Configuration:** *"My `BaseClass` acts as the engine, initializing the WebDriver instance based on browser configuration files and handling global wait times globally."*
-3. **Robustness Features:** *"To make it interview/production ready, I integrated utility handlers for screenshot captures on test failures and configured custom logging so execution flows can be thoroughly debugged without stepping through the IDE."*
